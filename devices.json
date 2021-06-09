@@ -1,0 +1,21 @@
+{
+  "backup" : [{
+        "addr":"IP OR Domain.name",
+        "username":"user",
+        "dstfile":"device1",
+        "ext":".conf",
+        "meth":"cisco-method",
+        "rotate":"yes",
+        "enabled":"yes"
+    }, {
+        "addr":"IP OR Domain.name",
+        "username":"user",
+        "dstfile":"device2",
+        "ext":".cfg",
+        "meth":"HP-method",
+        "rotate":"no",
+        "enabled":"yes"
+    }]
+
+
+}
